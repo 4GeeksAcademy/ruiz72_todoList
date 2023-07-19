@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    color: red;
+  }
+
+  input{
+    width: 735px;
+  }
